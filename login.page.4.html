@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=#,initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .left,
+      .right {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+      }
+
+      .right {
+        left: 50%;
+        top: 0;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      figure {
+        height: 100%;
+        line-height: 0;
+      }
+      .span {
+        border-style: solid;
+        border-width: thin;
+        margin-top: 70%;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-color: rgb(146, 146, 243);
+        border-radius: 10px;
+        background: linear-gradient(
+          rgb(208, 208, 234),
+          rgb(175, 155, 155),
+          rgb(183, 188, 194)
+        );
+      }
+      h2 {
+        margin-bottom: 10%;
+        margin-left: 5%;
+      }
+      h5 {
+        margin-bottom: 1%;
+      }
+      p {
+        margin-bottom: 2%;
+      }
+      a {
+        border-style: solid;
+        border-width: thin;
+        border-color: gray;
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgb(11, 11, 11);
+        margin-left: 25%;
+        background: white;
+      }
+      .a {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <div class="span">
+        <div class="a">
+          <h2>Hello, Friends!</h2>
+
+          <h5>Email</h5>
+          <p>
+            <input type="email" placeholder="Enter your email" />
+          </p>
+
+          <h5>Password</h5>
+          <p>
+            <input type="password" />
+          </p>
+          <a href="https://www.google.com/">SIGN UP</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1601598851547-4302969d0614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+          alt=""
+        />
+      </figure>
+    </div>
+  </body>
+</html>
